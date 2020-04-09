@@ -1,6 +1,6 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-Deployed Application <a href="https://mr-tyler31.github.io/my-employee-directory/" target="_blank">My Employee Directory</a>
+Deployed Application <a href="https://mr-tyler31.github.io/company-directory/" target="_blank">My Employee Directory</a>
 
 ## Application Description
 
@@ -22,4 +22,4 @@ You will also see any lint errors in the console.
 
 This application was built with React.js for the front-end library. I used Axios to make the API call to a third party API called <a href="https://randomuser.me/">RandomUser.me</a> which pulled in a list of "employees" on page load.
 
-<img class="img-fluid py-2" src="public/display.PNG" alt="screen shot" width="200" height="200">
+<img class="img-fluid py-2" src="public/display.PNG" alt="screen shot" width="400" height="400">
