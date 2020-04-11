@@ -12,7 +12,7 @@ function SearchFilter(props) {
           list="term"
           type="text"
           className="form-control"
-          placeholder="Type in a name to filter"
+          placeholder="Enter name to filter"
           id="term"
         />
       </div>

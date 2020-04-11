@@ -24,7 +24,7 @@ function DisplayEmployees(props) {
   });
 
   return (
-    <div>
+    <div id="table-div">
       <table style={{ width: "90%" }}>
         <thead>
           <tr>
@@ -32,12 +32,12 @@ function DisplayEmployees(props) {
             <th className="text-center">
               <i
                 onClick={() => props.sortByNameAsc("name")}
-                className="fas fa-arrow-circle-down mr-3"
+                className="fas fa-arrow-circle-down mr-3 hide"
               ></i>
               Name
               <i
                 onClick={() => props.sortByNameDesc("name")}
-                className="fas fa-arrow-circle-up ml-3"
+                className="fas fa-arrow-circle-up ml-3 hide"
               ></i>
             </th>
             <th className="text-center">Phone</th>
@@ -45,12 +45,12 @@ function DisplayEmployees(props) {
             <th className="text-center">
               <i
                 onClick={() => props.sortByDateAsc("date")}
-                className="fas fa-arrow-circle-down mr-3"
+                className="fas fa-arrow-circle-down mr-3 hide"
               ></i>
               Date Hired
               <i
                 onClick={() => props.sortByDateDesc("date")}
-                className="fas fa-arrow-circle-up ml-3"
+                className="fas fa-arrow-circle-up ml-3 hide"
               ></i>
             </th>
           </tr>

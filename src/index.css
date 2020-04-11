@@ -20,6 +20,7 @@ code {
 
 
 table {
+
   font-family: arial, sans-serif;
   border-collapse: collapse;
   margin: 0 auto;
@@ -52,10 +53,41 @@ tr:hover {
 }
 
 .search {
-  width: 30%;
+  width: 19%;
   margin: 0 auto;
 }
 
 .fa-arrows-alt-v:hover {
   cursor: pointer
+}
+
+
+#table-div {
+  overflow-x: auto;
+}
+
+
+@media screen and (max-width: 920px) {
+  .hide {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1901px) {
+  .search {
+    width: 30%;
+  }
+}
+
+@media screen and (max-width: 930px) {
+  .search {
+    width: 50%;
+  }
+}
+
+
+@media screen and (max-width: 815px) {
+  td {
+    font-size: 14px;
+  }
 }
